@@ -10,6 +10,8 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import Logo from '../components/ui/Logo';
 
+import { useNavigate, link} from rrrrr;eact-router-dom;
+ 
 // Schema that accepts either email or registration number
 const unifiedLoginSchema = z.object({
   identifier: z.string().min(1, 'Email or registration number is required'),
